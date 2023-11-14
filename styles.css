@@ -1,0 +1,29 @@
+.box {
+  margin: 10px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+
+.box.small {
+  width: 200px;
+  height: 200px;
+  display: inline-flex;
+}
+
+.box.large {
+  width: 600px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.box-small-background-color-one {
+  background-color: pink;
+}
+
+.box-small-background-color-two {
+  background-color: violet;
+}
+
+.box-small-background-color-three {
+  background-color: orange;
+}
